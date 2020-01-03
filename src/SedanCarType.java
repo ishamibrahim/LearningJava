@@ -5,7 +5,7 @@ public class SedanCarType  extends Car{
 
     public SedanCarType(int inputMileage, String inputLicencePlate, Color inputPaint,
                         boolean inputTransmission, double trunkSpace){
-        super(inputMileage, inputLicencePlate, inputPaint, false);
+        super(inputMileage, inputLicencePlate, inputPaint, inputTransmission);
         this.trunkSpace = trunkSpace;
     }
 
