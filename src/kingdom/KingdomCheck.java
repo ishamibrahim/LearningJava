@@ -1,3 +1,5 @@
+package kingdom;
+
 public class KingdomCheck {
 
     public static void main(String [] args) {
