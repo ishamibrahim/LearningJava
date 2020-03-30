@@ -42,7 +42,7 @@ public class SuperClassCheck {
         public static void main (String [] args){
 
             SubClass subDeep = new SubClass();
-            //subDeep.execute();
+            subDeep.execute();
 
         }
 }

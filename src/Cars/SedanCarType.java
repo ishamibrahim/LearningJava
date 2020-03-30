@@ -1,6 +1,8 @@
+package Cars;
+
 import java.awt.*;
 
-public class SedanCarType  extends Car{
+public class SedanCarType  extends Car {
     double trunkSpace;
 
     public SedanCarType(int inputMileage, String inputLicencePlate, Color inputPaint,

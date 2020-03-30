@@ -1,7 +1,7 @@
 import java.util.Date;
 
 class Integer{
-     private int x;
+     private   int x;
 
     Integer(int i){
         x = i;

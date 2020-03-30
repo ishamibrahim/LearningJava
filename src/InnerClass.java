@@ -21,7 +21,7 @@ class Outer{
 public class InnerClass {
 
     public static void main (String[] args){
-        System.out.println("Inner classes demo ");
+        System.out.println("Inner classes demo");
 
         Outer outer = new Outer();
         Outer.Inner inner = outer.new Inner();

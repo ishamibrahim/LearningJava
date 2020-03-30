@@ -1,3 +1,5 @@
+package Cars;
+
 import java.awt.*;
 
 public class Car {
@@ -25,6 +27,6 @@ public class Car {
     }
 
     public void steering(){
-        System.out.println("Car steering");
+        System.out.println("Cars.Car steering");
     }
 }
