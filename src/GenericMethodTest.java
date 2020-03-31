@@ -1,10 +1,8 @@
 
-
-
 public class GenericMethodTest {
-    public static <E> void printArray(E[] inputArray){
-        for(E element: inputArray){
-            System.out.println("Element is " + element);
+    public static <Arg> void printArray(Arg[] inputArray){
+        for(Arg item: inputArray){
+            System.out.println("Item is " + item);
         }
 
     }
